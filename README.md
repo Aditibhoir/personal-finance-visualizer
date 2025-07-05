@@ -1,40 +1,60 @@
 # 💰 Personal Finance Visualizer
 
-A simple web application for tracking personal finances using Next.js, MongoDB, Recharts, and Shadcn/ui.
+A simple and responsive web application to track personal finances.
 
-## 🚀 Features
+---
 
-- ✅ Add/Edit/Delete transactions (amount, date, description)
-- ✅ Transaction list view
-- ✅ Monthly expenses chart
-- ✅ Responsive UI
+## 🚀 Features – Stage 1
+
+- ✅ Add new transactions (amount, date, description)
+- ✅ View list of all transactions
+- ✅ Monthly expenses bar chart using Recharts
+- ✅ Basic form validation for empty fields
+- ✅ Responsive UI using shadcn/ui components
+
+---
 
 ## 🛠️ Tech Stack
 
-- Next.js 15 (App Router)
-- React
-- MongoDB Atlas
-- Shadcn/ui
-- Recharts
+| Layer     | Technology                          |
+|-----------|-------------------------------------|
+| Frontend  | Next.js (App Router), React         |
+| Styling   | Tailwind CSS, shadcn/ui             |
+| Charts    | Recharts (Bar Chart)                |
+| Backend   | API Routes (Next.js)                |
+| Database  | MongoDB Atlas (via Mongoose ODM)    |
 
-## 🔗 Live URL
+---
 
-[https://your-vercel-app-url.vercel.app](https://your-vercel-app-url.vercel.app)
+## 📦 Getting Started Locally
 
-## 🧠 Submission Stage
-
-Stage 1
-
-## ⚙️ Setup
-
-git clone https://github.com/your_username/personal-finance-visualizer.git
+### 1. Clone the repository
+```bash
+git clone https://github.com/Aditibhoir/personal-finance-visualizer.git
 cd personal-finance-visualizer
+2. Install dependencies
 npm install
-npm run dev
+3. Create .env.local file
 
-sql
+MONGODB_URI=your_mongodb_connection_string
+📌 Use your MongoDB Atlas connection string in place of your_mongodb_connection_string
+
+4. Start the development server
+
+npm run dev
+Open http://localhost:3000 in your browser to see the app.
+
+🌐 Live Demo
+🔗 Deployed on Vercel: https://your-vercel-app-url.vercel.app
+
+Replace with your actual deployed URL once deployed.
+
+
+
+🙋‍♀️ Author
+Aditi Bhoir
+GitHub: @Aditibhoir
+
+yaml
 Copy
 Edit
-
-> Add your `.env.local` file with:
-MONGODB_URI=your_mongodb_connection_string
