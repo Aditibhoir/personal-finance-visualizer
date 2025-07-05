@@ -9,6 +9,16 @@
 - ✅ Basic form validation for empty fields
 - ✅ Responsive UI using shadcn/ui components
 
+🛠️ Tech Stack
+
+| Layer     | Technology                          |
+|-----------|-------------------------------------|
+| Frontend  | Next.js (App Router), React         |
+| Styling   | Tailwind CSS, shadcn/ui             |
+| Charts    | Recharts (Bar Chart)                |
+| Backend   | API Routes (Next.js)                |
+| Database  | MongoDB Atlas (via Mongoose ODM)    |
+
 
 📦 Getting Started Locally
 
