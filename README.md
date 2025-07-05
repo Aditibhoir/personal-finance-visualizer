@@ -44,6 +44,14 @@ MONGODB_URI=your_mongodb_connection_string
 npm run dev
 Open http://localhost:3000 in your browser to see the app.
 
+Screenshots:
+
+![personal1](https://github.com/user-attachments/assets/3cb8117f-608f-4811-a788-395ef9eea4f5)
+
+
+![personal2jpg](https://github.com/user-attachments/assets/b5bc25c6-a12b-4d8d-b136-fdc6be19273a)
+
+
 🌐 Live Demo
 🔗 Deployed on Vercel: https://your-vercel-app-url.vercel.app
 
