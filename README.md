@@ -32,7 +32,7 @@ Open http://localhost:3000 in your browser to see the app
 📸 Screenshots
 
 📋 Home Page – Add & View Transactions  
-![Screenshot 1](./public/screenshots/screenshot1.png)
+
 
 📊 Monthly Expenses Bar Chart  
 ![Screenshot 2](./public/screenshots/screenshot2.png)
