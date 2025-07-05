@@ -12,8 +12,8 @@
 
 📦 Getting Started Locally
 
-1. Clone the repository
-bash
+1. Clone the repository:
+
 git clone https://github.com/Aditibhoir/personal-finance-visualizer.git
 cd personal-finance-visualizer
 2. Install dependencies
@@ -27,6 +27,7 @@ MONGODB_URI=your_mongodb_connection_string
 4. Start the development server
 
 npm run dev
+
 Open http://localhost:3000 in your browser to see the app
 
 📸 Screenshots
