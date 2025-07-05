@@ -54,7 +54,3 @@ Replace with your actual deployed URL once deployed.
 🙋‍♀️ Author
 Aditi Bhoir
 GitHub: @Aditibhoir
-
-yaml
-Copy
-Edit
