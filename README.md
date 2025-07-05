@@ -13,7 +13,7 @@
 📦 Getting Started Locally
 
 1. Clone the repository
-```bash
+bash
 git clone https://github.com/Aditibhoir/personal-finance-visualizer.git
 cd personal-finance-visualizer
 2. Install dependencies
@@ -47,5 +47,7 @@ Open http://localhost:3000 in your browser to see the app
 Replace with your actual deployed URL once deployed.
 
 
-Made with love @Aditibhoir
+Made with 💖@Aditibhoir
+
+
 
