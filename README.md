@@ -1,6 +1,5 @@
 💰 Personal Finance Visualizer A simple and responsive web application to track personal finances.
 
----
 
 🚀 Features – Stage 1
 
@@ -10,7 +9,7 @@
 - ✅ Basic form validation for empty fields
 - ✅ Responsive UI using shadcn/ui components
 
----
+
 📦 Getting Started Locally
 
 1. Clone the repository
@@ -29,7 +28,7 @@ MONGODB_URI=your_mongodb_connection_string
 
 npm run dev
 Open http://localhost:3000 in your browser to see the app
----
+
 📸 Screenshots
 
 📋 Home Page – Add & View Transactions  
