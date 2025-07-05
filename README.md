@@ -16,12 +16,15 @@
 
 git clone https://github.com/Aditibhoir/personal-finance-visualizer.git
 cd personal-finance-visualizer
+
 2. Install dependencies
 
 npm install
+
 3. Create .env.local file
 
 MONGODB_URI=your_mongodb_connection_string
+
 📌 Use your MongoDB Atlas connection string in place of your_mongodb_connection_string
 
 4. Start the development server
