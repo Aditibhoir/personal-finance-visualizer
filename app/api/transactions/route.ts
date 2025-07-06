@@ -9,7 +9,10 @@ export async function GET() {
     await connectDB();
     const transactions = await Transaction.find().sort({ date: -1 });
     return NextResponse.json(transactions);
-  } catch (error) {
+  } catch (error: unknown) {
+    if (error instanceof Error) {
+      console.error("❌ GET transactions error:", error.message);
+    }
     return NextResponse.json({ error: "Failed to fetch transactions" }, { status: 500 });
   }
 }
@@ -21,7 +24,10 @@ export async function POST(request: Request) {
     const body = await request.json();
     const newTransaction = await Transaction.create(body);
     return NextResponse.json(newTransaction, { status: 201 });
-  } catch (error) {
+  } catch (error: unknown) {
+    if (error instanceof Error) {
+      console.error("❌ POST transaction error:", error.message);
+    }
     return NextResponse.json({ error: "Failed to create transaction" }, { status: 500 });
   }
 }

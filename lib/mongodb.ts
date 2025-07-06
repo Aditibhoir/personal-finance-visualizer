@@ -16,8 +16,12 @@ export default async function connectDB() {
     await mongoose.connect(MONGODB_URI!); // Non-null assertion
     isConnected = true;
     console.log("✅ MongoDB connected!");
-  } catch (err: any) {
-    console.error("❌ MongoDB connection failed:", err.message);
+  } catch (err: unknown) {
+    if (err instanceof Error) {
+      console.error("❌ MongoDB connection failed:", err.message);
+    } else {
+      console.error("❌ MongoDB connection failed with unknown error");
+    }
     throw err;
   }
 }
