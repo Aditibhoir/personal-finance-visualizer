@@ -56,7 +56,7 @@ Open http://localhost:3000 in your browser to see the app
 
 
 🌐 Live Demo
-🔗 Deployed on Vercel: https://your-vercel-app-url.vercel.app
+🔗 Deployed on Vercel: https://personal-finance-visualizer-kjum.vercel.app/
 
 Replace with your actual deployed URL once deployed.
 
